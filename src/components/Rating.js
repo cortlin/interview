@@ -23,9 +23,11 @@ export const Rating = ({ numOfRatings }) => {
           </svg>
         ))}
         {rating && (
-          <p>{rating} out of {numOfRatings} Stars!</p>
-          )}
-        <button className={styles.block} onClick={() => setRating()}>Clear Rating</button>
+          <>
+            <p>{rating} out of {numOfRatings} Stars!</p>
+            <button className={styles.block} onClick={() => setRating()}>Clear Rating</button>
+          </>
+        )}
       </div>
     </div>
   )
