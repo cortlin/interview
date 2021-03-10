@@ -1,0 +1,12 @@
+.ratingStar {
+  width: 2rem;
+  height: 2rem;
+  color: gold;
+}
+
+.active {
+  width: 2rem;
+  height: 2rem;
+  fill: gold;
+  color: gold;
+}
